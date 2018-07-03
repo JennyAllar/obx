@@ -1,24 +1,47 @@
-# README
+# OBX 2019
+### Family Vacay In the Banks
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objective:
+To gather necessary data pertinent to booking the vacation home.
 
-Things you may want to cover:
+#### Project Timeline:
+* **07/09/18**
+  ```
+  Theme chosen/executed
+  Basic data model mapped out
+  ```
 
-* Ruby version
+* **07/16/16**
+  ```
+  First draft of user experience ready for testing
+  ```
 
-* System dependencies
+* **07/23/18**
+  ```
+  MVP - Determine usefulness of data
+  ```
 
-* Configuration
+* **07/30/18**
+  ```
+  Go Live (?)
+  ```
 
-* Database creation
+Mockups:
 
-* Database initialization
+![](app/assets/images/wireframes/1-welcome-name.png)
 
-* How to run the test suite
+![](app/assets/images/wireframes/2-exteriors.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+![](app/assets/images/wireframes/3-people-coming.png)
 
-* Deployment instructions
+![](app/assets/images/wireframes/4-private-or-shared-room.png)
 
-* ...
+![](app/assets/images/wireframes/5-bed-setup.png)
+
+
+
+
+
+
+
