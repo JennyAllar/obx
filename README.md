@@ -6,23 +6,23 @@
 To gather necessary data pertinent to booking the vacation home.
 
 #### Project Timeline:
-* **07/09/18**
+* **07/16/18**
   ```
   Theme chosen/executed
   Basic data model mapped out
   ```
 
-* **07/16/16**
+* **07/23/16**
   ```
   First draft of user experience ready for testing
   ```
 
-* **07/23/18**
+* **07/30/18**
   ```
   MVP - Determine usefulness of data
   ```
 
-* **07/30/18**
+* **08/06/18**
   ```
   Go Live (?)
   ```
