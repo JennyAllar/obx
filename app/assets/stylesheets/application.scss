@@ -1,0 +1,281 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ /*------------------------------*\
+     Grid System
+ \*------------------------------*/
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Molle:400i|Nunito|Vidaloka|Walter+Turncoat');
+
+
+$aqua: #2C9FA3;
+$yellow: #FFB914;
+$orange: #FF8826;
+$red: #F03813;
+$berry: #B31237;
+
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Walter Turncoat', cursive;
+// font-family: 'Vidaloka', serif;
+// font-family: 'Molle', cursive;
+
+
+
+ .row,
+ .column {
+     box-sizing: border-box;
+ }
+
+ .row:before,
+ .row:after {
+     content: " ";
+     display: table;
+ }
+
+ .row:after {
+     clear: both;
+ }
+
+ .column {
+     position: relative;
+     float: left;
+     display: block;
+ }
+
+ .column + .column {
+     margin-left: 1.6%;
+ }
+
+ .column-1 {
+     width: 6.86666666667%;
+ }
+
+ .column-2 {
+     width: 15.3333333333%;
+ }
+
+ .column-3 {
+     width: 23.8%;
+ }
+
+ .column-4 {
+     width: 32.2666666667%;
+ }
+
+ .column-5 {
+     width: 40.7333333333%;
+ }
+
+ .column-6 {
+     width: 49.2%;
+ }
+
+ .column-7 {
+     width: 57.6666666667%;
+ }
+
+ .column-8 {
+     width: 66.1333333333%;
+ }
+
+ .column-9 {
+     width: 74.6%;
+ }
+
+ .column-10 {
+     width: 83.0666666667%;
+ }
+
+ .column-11 {
+     width: 91.5333333333%;
+ }
+
+ .column-12 {
+     width: 100%;
+     margin-left: 0;
+ }
+
+ @media only screen and (max-width: 550px) {
+     .column-1,
+     .column-2,
+     .column-3,
+     .column-4,
+     .column-5,
+     .column-6,
+     .column-7,
+     .column-8,
+     .column-9,
+     .column-10,
+     .column-11,
+     .column-12 {
+         float: none;
+         width: auto;
+     }
+
+     .column + .column {
+         margin-left: 0;
+     }
+ }
+
+ /*------------------------------*\
+     Styling
+ \*------------------------------*/
+
+ body {
+   background: url('stock/colorful-homes.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+ .column {
+     /* background: #eee;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     color: #777; */
+     padding: 5px;
+     min-height: 30px;
+     text-align: center;
+ }
+
+ .row {
+     margin-bottom: 10px;
+ }
+
+ .row:last-child {
+     margin-bottom: 0;
+ }
+
+ .column .column {
+     color: #eee;
+     background: #333;
+     border-color: #000;
+ }
+
+ .p {
+   font-size: 14px;
+   text-align: center;
+   padding-top: 100px;
+ }
+
+ @media only screen and (max-width: 550px) {
+     .row {
+         margin-bottom: 0;
+     }
+     .column {
+         margin-bottom: 10px;
+     }
+     .row:last-child .column:last-child {
+         margin-bottom: 0;
+     }
+ }
+
+
+
+
+ /* CUSTOM */
+ #colorful {
+   width: 100%;
+   border: 5px solid ;
+ }
+
+ #hero-text {
+   margin-top: 15%;
+ }
+
+ #hero-text h1, h2{
+   display: inline;
+   background-color: tomato;
+   color: white;
+   border-radius: 10px;
+ }
+
+ .title {
+   margin-bottom: 10px;
+ }
+
+
+ #hero-text h2 {
+   font-family: 'Walter Turncoat', cursive;
+   padding: 20px 48px 20px 48px;
+ }
+
+ #hero-text h1 {
+   font-family: 'Molle', cursive;
+   font-size: 50px;
+   padding: 15px 40px 15px 40px;
+ }
+
+
+ /*  BUTTONS  */
+ html, body {
+   text-align: center;
+   padding-top: 40px;
+
+   -webkit-perspective: 700px;
+      -moz-perspective: 700px;
+       -ms-perspective: 700px;
+           perspective: 700px;
+ }
+
+ /* Reset */
+ button {
+   background: transparent;
+   border: 0;
+   padding: 0;
+   cursor: pointer;
+   outline: 0;
+   -webkit-appearance: none;
+ }
+
+ /* Custom */
+ button {
+   display: inline-block;
+   position: relative;
+   width: 150px;
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   font-size: 30px;
+   font-family: "Open Sans", Helvetica;
+   border-radius: 4px;
+   background: rgba( 44, 159, 163, 1 );
+   color: #fff;
+   box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+
+   -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+       -ms-transform: translateZ(0);
+           transform: translateZ(0);
+
+   -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+       -ms-transition: all 0.2s ease;
+           transition: all 0.2s ease;
+ }
+
+ button:hover {
+   top: -10px;
+   box-shadow: 0px 10px 10px rgba( 44, 159, 163, 0.2 );
+
+   -webkit-transform: rotateX(20deg);
+      -moz-transform: rotateX(20deg);
+       -ms-transform: rotateX(20deg);
+           transform: rotateX(20deg);
+ }
+
+ button:active {
+   top: 0px;
+   box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+   background: rgba( 44, 159, 163, .5 );
+ }

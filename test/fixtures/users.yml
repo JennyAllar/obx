@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  signed_in: 2018-07-17 22:00:42
+  roommate: 
+
+two:
+  name: MyString
+  signed_in: 2018-07-17 22:00:42
+  roommate: 
