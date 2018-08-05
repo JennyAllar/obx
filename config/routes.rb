@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'pages#index'
   get '/exteriors' => 'homes#exteriors'
   get '/dates' => 'pages#dates'
+  get '/transportation' => 'pages#transportation'
 end
